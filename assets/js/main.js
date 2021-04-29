@@ -9,7 +9,7 @@ var n = 1;
 var somma = 0;
 
 for (var i = 0; i < 100; i++) {
-    var somma = somma + n;
+    somma = somma + n;
     if ((somma % 3 == 0)&&(somma % 5 == 0)) {
         console.log(somma + "fizzbuzz");
     } else if (somma % 3 == 0) {
